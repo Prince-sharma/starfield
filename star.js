@@ -18,7 +18,7 @@ class star {
     }
   
     show() {
-      fill(255);
+      fill(49, 222, 0);
       noStroke();
   
       let sx = map(this.x / this.z, 0, 1, 0, width);
