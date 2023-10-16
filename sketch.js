@@ -12,6 +12,7 @@ function setup() {
       radius
     );
   }
+  colorMode(HSB);
 }
 
 function draw() {
