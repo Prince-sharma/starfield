@@ -28,7 +28,7 @@ class star {
   
       let px = map(this.x / this.pz, 0, 1, 0, width);
       let py = map(this.y / this.pz, 0, 1, 0, height);
-      stroke(255);
+      stroke(random()*255, 255, 255);
       strokeWeight(newR);
       line(px, py, sx, sy);
       this.pz = this.z;
