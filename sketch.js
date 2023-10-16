@@ -4,7 +4,7 @@ let radius = 4;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  for (let i = 0; i < 2500; i++) {
+  for (let i = 0; i < 2500*4; i++) {
     stars[i] = new star(
       random(-width / 2, width / 2),
       random(-height / 2, height / 2),
